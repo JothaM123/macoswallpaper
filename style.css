@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family:monospace;
+    color:white;
+    background:#111111;
+}
+
+section,.curvy1,.curvy2{
+    min-height: 100px;
+    padding:10px 20vw;    
+}
+
+.s1{
+    background: linear-gradient(#0C79BC,#CBE6FC);      
+}
+
+.s2{
+    background: linear-gradient(#FFB60F,#FE5C47);
+}
+
+.s3{
+    background: linear-gradient(#FF063F,#8C2B85);
+}
+
+.curvy1{
+    background:linear-gradient(#CBE6FC,#FFB60F);
+}
+
+.curvy2{
+    background:linear-gradient(#FE5C47,#FF063F);
+}
+
+button{
+    width:100%;
+    border-radius:5px;
+    background:linear-gradient(#5DAAF8 ,#2689FB);  
+    color:white;  
+    font-size:20px;
+    outline:0;
+}
+
+button:active{
+    background:linear-gradient(#4491F6,#2173E6);  
+}
